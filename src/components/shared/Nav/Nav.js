@@ -23,12 +23,12 @@ const Navigation = () => {
       <Navbar className="fixed-top" id="nav" expand="lg">
         <Container>
           <NavbarBrand href="/" className="logo">
-            <Image
+            {/* <Image
               className="logo"
               src={logo}
               alt="jerry's insulating"
               title="jerry's insulating"
-            />
+            /> */}
           </NavbarBrand>
           <NavbarToggler className="custom-toggler" onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
