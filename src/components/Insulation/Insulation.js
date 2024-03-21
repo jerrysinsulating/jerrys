@@ -32,7 +32,7 @@ const Insulation = () => {
               </Card>
             </Col>
           </Row>
-          <Row className="text-center">
+          <Row className="text-center p-t-40">
             <Col lg="6">
               <Image className="img-fluid" src={blown} alt="Blown Insulation" />
               <Card>
@@ -60,7 +60,7 @@ const Insulation = () => {
                   Properly installed batting insulation can give you peace of
                   mind, reduce your energy costs and be easy to replace down the
                   road. If you have a problem with the existing insulation and
-                  need it removed prior to...
+                  need...
                 </p>
                 <Link href="/insulation">
                   <Button>Learn More</Button>

@@ -53,23 +53,25 @@ export default function Home() {
               </p>
             </Col>
             <Col lg="6">
-              Jerry’s Insulating can provide polyurethane spray foam at your job
-              site in Hamilton, blown fiberglass insulation for your rental
-              property in Mississauga, spray fireproofing for your commercial
-              project in Niagara, soundproofing for your duplex in Oakville or a
-              combination of fiberglass and spray foam solutions for that custom
-              home in Toronto.
-              <br />
-              <br />
-              We thank you for visiting our website. For a complimentary,
-              no-obligation and hassle-free quote, please contact us at 
-              <a href="tel:1-877-504-7283">1-877-504-7283</a>. We look forward
-              to hearing from you!
+              <p>
+                Jerry’s Insulating can provide polyurethane spray foam at your
+                job site in Hamilton, blown fiberglass insulation for your
+                rental property in Mississauga, spray fireproofing for your
+                commercial project in Niagara, soundproofing for your duplex in
+                Oakville or a combination of fiberglass and spray foam solutions
+                for that custom home in Toronto.
+                <br />
+                <br />
+                We thank you for visiting our website. For a complimentary,
+                no-obligation and hassle-free quote, please contact us at 
+                <a href="tel:1-877-504-7283">1-877-504-7283</a>. We look forward
+                to hearing from you!
+              </p>
             </Col>
           </Row>
         </Container>
       </section>
-      <section className="testimonial-card">
+      <section className="testimonials">
         <Container>
           <Row className="text-center">
             <Col lg="12">

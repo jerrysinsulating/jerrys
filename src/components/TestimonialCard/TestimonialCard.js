@@ -5,10 +5,19 @@ const TestimonialCard = ({ author, desc }) => {
   return (
     <>
       <Card>
-        <div className="d-flex align-items-center">
-          <p className="author">{author}</p>
-          <p className="stars">"{desc}"</p>
-        </div>
+        <Row>
+          <Col lg="12">
+            <div className="d-flex align-items-center justify-content-between">
+              <p className="author">{author}</p>
+              <p>stars</p>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12">
+            <p className="desc">"{desc}"</p>
+          </Col>
+        </Row>
       </Card>
     </>
   );

@@ -1,0 +1,15 @@
+@import "./variables.scss";
+
+.btn {
+  background: $red;
+  border: none;
+  border-radius: 0px;
+  padding: 20px 30px 20px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  &:hover {
+    background: $dark-grey;
+  }
+}

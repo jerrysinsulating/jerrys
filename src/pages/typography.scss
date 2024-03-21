@@ -1,0 +1,30 @@
+@import "./variables.scss";
+
+h1,
+h2 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 46px;
+  color: $dark-blue;
+}
+
+h3 {
+  color: $light-blue;
+  font-weight: 600;
+}
+
+hr {
+  width: 75px;
+  border-top: 3px solid $red;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: $body;
+}
