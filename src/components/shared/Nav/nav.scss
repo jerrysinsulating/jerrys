@@ -2,6 +2,7 @@
 @import "../../../pages/variables.scss";
 
 .fixed-top {
+  background: $white;
   box-shadow: 0 1px 3px rgba(189, 189, 189, 0.12),
     0 1px 2px rgba(201, 201, 201, 0.24);
 }
@@ -10,7 +11,7 @@
   &:focus,
   &:hover {
     color: $light-blue;
-    border-bottom: 2px solid $purple;
+    border-bottom: 2px solid $dark-blue;
     text-decoration: none;
   }
 }
@@ -42,7 +43,7 @@
 }
 
 .logo {
-  height: 35% !important;
+  height: inherit !important;
   width: 35% !important;
   @include bp-tablet-sm {
     height: 60% !important;
@@ -64,7 +65,6 @@
   @include bp-tablet-sm {
     margin-top: 0px !important;
     padding: 0.5rem 1rem !important;
-    background: $dark-blue !important;
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -72,9 +72,11 @@
     z-index: 1030 !important;
   }
   a {
-    color: $light-blue;
-    font-size: 16px;
+    color: $dark-grey;
+    font-size: 14px;
     letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     @include bp-tablet-sm {
       border-bottom: none !important;
@@ -114,7 +116,7 @@
     border-left: 3px solid #fff !important;
     &:hover {
       transform: none !important;
-      color: $dark-grey !important;
+      color: $dark-blue !important;
       border-left: 3px solid $light-blue !important;
     }
   }
@@ -126,8 +128,8 @@
     letter-spacing: 0.5px !important;
     &:hover,
     &:focus {
-      background: $dark-grey;
-      color: $purple !important;
+      background: $dark-blue;
+      color: $dark-blue !important;
     }
   }
 }
@@ -136,22 +138,21 @@
   .btn {
     padding: 15px 25px 15px 25px !important;
     border: none;
-    background: $purple;
+    background: $red;
     border-radius: 0px !important;
-    color: $dark-blue;
-    border: 2px solid $purple;
+    color: $white;
+    border: 2px solid $red;
     transition: 0.2s;
     &:focus,
     &:hover {
       box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-      background: $glow-blue;
-      color: $dark-blue;
+      background: $dark-grey;
+      border: 2px solid $dark-grey;
     }
     @include bp-tablet-sm {
-      background: $purple;
       margin-bottom: 10px;
       text-align: left;
-      width: 183px;
+      width: 280px;
     }
   }
   @media (min-width: 992px) {
