@@ -1,0 +1,18 @@
+@import "../../../pages/breakpoints.scss";
+@import "../../../pages/variables.scss";
+
+.cta {
+  padding: 80px 0px 80px 0px;
+  @include bp-tablet-sm {
+    padding: 30px 0px 30px 0px;
+  }
+  background: $light-blue;
+  h2 {
+    color: $white;
+    margin-bottom: 30px;
+  }
+  hr {
+    border-top: 1px solid $white;
+    padding-bottom: 30px;
+  }
+}

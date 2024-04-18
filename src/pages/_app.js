@@ -9,6 +9,8 @@ import "../pages/utils.scss";
 import "../pages/home-about.scss";
 import "../pages/home-testimonials.scss";
 import "../components/TestimonialCard/testimonial-card.scss";
+import "../components/shared/CTA/cta.scss";
+import "../components/shared/Footer/footer.scss";
 import Navigation from "@/components/shared/Nav/Nav";
 import CTA from "@/components/shared/CTA/CTA";
 import Footer from "@/components/shared/Footer/Footer";

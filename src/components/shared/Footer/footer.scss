@@ -1,0 +1,16 @@
+@import "../../../pages/breakpoints.scss";
+@import "../../../pages/variables.scss";
+
+footer {
+  background: $dark-grey;
+  padding: 30px 0px 30px 0px;
+  a,
+  p {
+    color: $white;
+  }
+  .text-end {
+    @include bp-tablet-sm {
+      text-align: left !important;
+    }
+  }
+}

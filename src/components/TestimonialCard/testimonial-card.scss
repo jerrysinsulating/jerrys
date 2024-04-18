@@ -1,8 +1,18 @@
 @import "../../pages/variables.scss";
 
 .testimonial-card {
-  .author {
-    color: $dark-grey !important;
-    font-weight: bold;
+  margin-bottom: 20px;
+  .card {
+    border: none;
+    padding: 40px;
+  }
+  p {
+    &.author {
+      color: $dark-grey;
+      font-weight: bold;
+    }
+    &.desc {
+      font-style: italic;
+    }
   }
 }

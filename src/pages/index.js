@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
 import Head from "next/head";
-import { Montserrat } from "next/font/google";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from "@/components/Hero/Hero";
@@ -34,14 +33,10 @@ export default function Home() {
           <Row>
             <Col lg="6">
               <p>
-                Jerry’s Insulating is a family owned and operated full service
-                insulation contractor. Established in 1975, Jerry’s Insulating
-                has been providing quality insulation solutions for over 40
-                years. Jerry’s Insulating services include new construction and
-                retrofit projects for both the residential and commercial
-                markets. Our service areas includes Toronto, Halton/Peel,
-                Mississauga, Oakville, Hamilton/Burlington, and the Niagara
-                region.
+                Jerry's Insulating is a family owned and operated full service
+                insulation contractor. Jerry’s Insulating Co. was established in
+                1975. Our service area includes the Niagara Region,
+                Hamilton/Burlington, as well as the Greater Toronto Area.
                 <br />
                 <br />
                 At Jerry’s we use only premium insulation materials. Our
@@ -49,19 +44,12 @@ export default function Home() {
                 solution for your project. Many of our employees have more than
                 20 years experience, offering considerable knowledge and
                 exceptional service. Our focus on customer satisfaction is what
-                sets us apart from our competitors.
+                sets us apart from our competitors. In fact, many of our clients
+                are repeat customers, which is a testament to our great work.
               </p>
             </Col>
             <Col lg="6">
               <p>
-                Jerry’s Insulating can provide polyurethane spray foam at your
-                job site in Hamilton, blown fiberglass insulation for your
-                rental property in Mississauga, spray fireproofing for your
-                commercial project in Niagara, soundproofing for your duplex in
-                Oakville or a combination of fiberglass and spray foam solutions
-                for that custom home in Toronto.
-                <br />
-                <br />
                 We thank you for visiting our website. For a complimentary,
                 no-obligation and hassle-free quote, please contact us at 
                 <a href="tel:1-877-504-7283">1-877-504-7283</a>. We look forward
@@ -82,28 +70,28 @@ export default function Home() {
           <Row>
             <Col lg="6">
               <TestimonialCard
-                author="Jerry Dodger"
-                desc="Awesome company to deal with. I have dealt with many trades and different companies over the years and Jerrys is by far the best insulation company I have used. Super friendly staff, worked fast and efficiently, with great attention to detail. To top it all off they had the best price of anyone I called. 11/10 will be using again in the future for sure."
+                author="Darren K."
+                desc="This is a great company. I used them a few times. The staff are friendly and they show up when they say they will. If I need this service again - they are the first company that I will call."
               />
             </Col>
             <Col lg="6">
               <TestimonialCard
-                author="Jerry Dodger"
-                desc="Awesome company to deal with. I have dealt with many trades and different companies over the years and Jerrys is by far the best insulation company I have used. Super friendly staff, worked fast and efficiently, with great attention to detail. To top it all off they had the best price of anyone I called. 11/10 will be using again in the future for sure."
+                author="Jeff R."
+                desc="The people at Jerry’s Insulating were professional, polite and cleaned up after the job very well. I will be recommending you guys to anyone who asks!"
               />
             </Col>
           </Row>
           <Row>
             <Col lg="6">
               <TestimonialCard
-                author="Jerry Dodger"
-                desc="Awesome company to deal with. I have dealt with many trades and different companies over the years and Jerrys is by far the best insulation company I have used. Super friendly staff, worked fast and efficiently, with great attention to detail. To top it all off they had the best price of anyone I called. 11/10 will be using again in the future for sure."
+                author="Dan D."
+                desc="I had a very good experience working with Jerry’s. Very professional. They quoted a more complete job than their competition.  Friendly staff all around and they did a fantastic job. Highly recommended."
               />
             </Col>
             <Col lg="6">
               <TestimonialCard
-                author="Jerry Dodger"
-                desc="Awesome company to deal with. I have dealt with many trades and different companies over the years and Jerrys is by far the best insulation company I have used. Super friendly staff, worked fast and efficiently, with great attention to detail. To top it all off they had the best price of anyone I called. 11/10 will be using again in the future for sure."
+                author="Randy W."
+                desc="Your service was terrific, especially on short notice. Your service people were clean, polite, and professional. We are very happy."
               />
             </Col>
           </Row>

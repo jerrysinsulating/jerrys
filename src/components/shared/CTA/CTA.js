@@ -9,6 +9,7 @@ const CTA = () => {
           <Row className="text-center">
             <Col lg="12">
               <h2>Request An Estimate</h2>
+              <hr />
               <Link href="/contact-us">
                 <Button>Contact/Request Estimate</Button>
               </Link>
