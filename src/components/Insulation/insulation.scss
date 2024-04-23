@@ -1,6 +1,16 @@
 @import "../../pages/variables.scss";
+@import "../../pages/breakpoints.scss";
 
 .insulation {
   padding: 120px 0px 120px 0px;
   background: $light-grey;
+  @include bp-tablet-sm {
+    padding: 30px 0px 60px 0px;
+  }
+}
+
+img {
+  @include bp-tablet-sm {
+    margin-top: 20px;
+  }
 }

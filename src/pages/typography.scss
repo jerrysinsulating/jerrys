@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "./breakpoints.scss";
 
 h1,
 h2 {
@@ -21,6 +22,9 @@ hr {
   margin: 0 auto;
   margin-top: 20px;
   padding-bottom: 60px;
+  @include bp-tablet-sm {
+    padding-bottom: 20px;
+  }
 }
 
 p {
