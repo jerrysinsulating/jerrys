@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/shared/Nav/nav.scss";
 import "../components/Hero/hero.scss";
+import "../components/InnerHero/inner-hero.scss";
 import "../components/Insulation/insulation.scss";
 import "../pages/button.scss";
 import "../pages/card.scss";
@@ -8,6 +9,7 @@ import "../pages/typography.scss";
 import "../pages/utils.scss";
 import "../pages/home-about.scss";
 import "../pages/home-testimonials.scss";
+import "../pages/inner-content.scss";
 import "../components/TestimonialCard/testimonial-card.scss";
 import "../components/shared/CTA/cta.scss";
 import "../components/shared/Footer/footer.scss";
