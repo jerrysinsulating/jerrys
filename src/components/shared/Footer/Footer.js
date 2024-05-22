@@ -9,8 +9,7 @@ const Footer = () => {
           <Row className="justify-content-between">
             <Col lg="6">
               <p>
-                Address goes here | <a href="tel:905-356-4217">905-356-4217</a>{" "}
-                |{" "}
+                <a href="tel:905-356-4217">905-356-4217</a> |{" "}
                 <a href="mailto:jerry@jerrysinsulating.ca">
                   jerry@jerrysinsulating.ca
                 </a>

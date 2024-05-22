@@ -48,7 +48,7 @@ const Navigation = () => {
             </NavItem>
             <NavItem>
               <Link href="/services" className="nav-link">
-                Other Services
+                Other Services &amp; FAQs
               </Link>
             </NavItem>
             <NavItem>

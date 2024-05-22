@@ -26,6 +26,7 @@ export default function About() {
         <Container>
           <Row>
             <Col lg="12">
+              <div id="spray"></div>
               <h2>Spray Foam</h2>
               <Image className="img-fluid" src={sprayFoam} alt="spray foam" />
               <p>
@@ -129,6 +130,7 @@ export default function About() {
           </Row>
           <Row>
             <Col lg="12">
+              <div id="blown"></div>
               <h2>Blown Insulation</h2>
               <Image className="img-fluid" src={blown} alt="blown insulation" />
             </Col>
@@ -204,6 +206,7 @@ export default function About() {
           </Row>
           <Row>
             <Col lg="12">
+              <div id="batting"></div>
               <h2>Batting Insulation</h2>
               <Image
                 className="img-fluid"
@@ -255,8 +258,8 @@ export default function About() {
                 Properly installed batt insulation can give you peace of mind,
                 reduce your energy costs and be easy to replace down the road.
                 If you have a problem with the existing insulation and need it
-                removed prior to installing new one, no problem – we can do this
-                for you as well.
+                removed prior to installing new insulation, no problem – we can
+                do this for you as well.
                 <br />
                 <br />
                 Still undecided? The type of insulation you need depends on the

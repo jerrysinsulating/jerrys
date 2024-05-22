@@ -68,19 +68,19 @@ export default function About() {
                 ceilings and other interior walls in your home for added comfort
                 in your living space.
               </p>
-              <h3>Frequently Asked Questions:</h3>
-              <h2>Spray Foam vs. Fiberglass, What's the difference?</h2>
+              <h2>Frequently Asked Questions:</h2>
+              <h3>Spray Foam vs. Fiberglass, What's the difference?</h3>
               <p>
                 Spray foams outperform fiberglass and cellulose insulation by up
                 to 50%. Spray foams act as air barrier material, reducing your
                 home's energy loss due to air infiltration.
               </p>
-              <h2>How do I prepare to have Jerry's Insulate my home?</h2>
+              <h3>How do I prepare to have Jerry's Insulate my home?</h3>
             </Col>
           </Row>
           <Row>
             <Col lg="6">
-              <h3>Attic Insulation</h3>
+              <h4>Attic Insulation</h4>
               <ul>
                 <li>
                   Our crews will access the attic through the hatch door. Enough
@@ -93,7 +93,7 @@ export default function About() {
               </ul>
             </Col>
             <Col lg="6">
-              <h3>Exterior Wall Insulation (Blown Fiberglass)</h3>
+              <h4>Exterior Wall Insulation (Blown Fiberglass)</h4>
               <ul>
                 <li>
                   Move all furniture at least 4ft from all exterior walls to
@@ -111,14 +111,16 @@ export default function About() {
           </Row>
           <Row>
             <Col lg="6">
-              <h3>Spray Foam Garage Ceiling</h3>
-              <p>
-                All items must be removed from the garage prior to the arrival
-                of our crews.
-              </p>
+              <h4>Spray Foam Garage Ceiling</h4>
+              <ul>
+                <li>
+                  All items must be removed from the garage prior to the arrival
+                  of our crews.
+                </li>
+              </ul>
             </Col>
             <Col lg="6">
-              <h3>Spray Foam Crawl Space</h3>
+              <h4>Spray Foam Crawl Space</h4>
               <ul>
                 <li>
                   All items must be removed from the crawl space prior to
@@ -131,7 +133,7 @@ export default function About() {
               </ul>
             </Col>
           </Row>
-          <h3>Spray Foam Basement Walls</h3>
+          <h4>Spray Foam Basement Walls</h4>
           <ul>
             <li>
               All items must be moved a minimum of 4ft from the exterior walls.

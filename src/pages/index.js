@@ -36,7 +36,7 @@ export default function Home() {
                 Jerry's Insulating is a family owned and operated full service
                 insulation contractor. Jerry’s Insulating Co. was established in
                 1975. Our service area includes the Niagara Region,
-                Hamilton/Burlington, as well as the Greater Toronto Area.
+                Hamilton/Burlington.
                 <br />
                 <br />
                 At Jerry’s we use only premium insulation materials. Our
@@ -52,8 +52,10 @@ export default function Home() {
               <p>
                 We thank you for visiting our website. For a complimentary,
                 no-obligation and hassle-free quote, please contact us at 
-                <a href="tel:1-877-504-7283">1-877-504-7283</a>. We look forward
-                to hearing from you!
+                <a href="tel:1-877-504-7283">1-877-504-7283</a>. Or you can also
+                contact us by filling out a request an estimate form on our site
+                and someone will get back to you shortly We look forward to
+                hearing from you!
               </p>
             </Col>
           </Row>

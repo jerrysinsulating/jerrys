@@ -26,7 +26,7 @@ const Insulation = () => {
                   foam insulation offers up to 50% energy savings over
                   conventional insulation products.
                 </p>
-                <Link href="/insulation">
+                <Link href="/insulation#spray">
                   <Button>Learn More</Button>
                 </Link>
               </Card>
@@ -38,12 +38,11 @@ const Insulation = () => {
               <Card>
                 <h3>Blown Insulation</h3>
                 <p>
-                  Blown Insulation Blown insulation has many uses and benefits
-                  and is the traditional form of insulation. It is a fast and
-                  easy way to save money and significantly reduce your growing
-                  energy bill.
+                  Blown insulation has many uses and benefits and is the
+                  traditional form of insulation. It is a fast and easy way to
+                  save money and significantly reduce your growing energy bill.
                 </p>
-                <Link href="/insulation">
+                <Link href="/insulation#blown">
                   <Button>Learn More</Button>
                 </Link>
               </Card>
@@ -62,7 +61,7 @@ const Insulation = () => {
                   road. If you have a problem with the existing insulation and
                   need...
                 </p>
-                <Link href="/insulation">
+                <Link href="/insulation#batting">
                   <Button>Learn More</Button>
                 </Link>
               </Card>
