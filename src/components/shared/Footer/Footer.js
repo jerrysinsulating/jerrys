@@ -19,6 +19,16 @@ const Footer = () => {
               <p>Copyright {new Date().getFullYear()} Jerry’s Insulating Co</p>
             </Col>
           </Row>
+          <Row>
+            <Col lg="12">
+              <p>
+                <a target="_blank" href="https://infused.agency">
+                  Niagara web design
+                </a>{" "}
+                by Infused Agency
+              </p>
+            </Col>
+          </Row>
         </Container>
       </footer>
     </>
