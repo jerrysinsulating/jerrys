@@ -22,10 +22,7 @@ const Footer = () => {
           <Row>
             <Col lg="12">
               <p>
-                <a target="_blank" href="https://infused.agency">
-                  Niagara web design
-                </a>{" "}
-                by Infused Agency
+                Website by <Link href="/infused-agency">Infused Agency</Link>
               </p>
             </Col>
           </Row>
